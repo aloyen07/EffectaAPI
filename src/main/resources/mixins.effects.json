@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "ru.aloyenz.effectsapi.mixins",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "mixins.effectsapi.refmap.json",
+  "mixins": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "GameRendererMixin",
+    "IShaderGetter"
+  ]
+}
